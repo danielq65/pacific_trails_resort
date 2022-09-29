@@ -1,0 +1,86 @@
+/*
+File: pacific.css
+GUI Assignment: Homework #2
+Daniel Quinonez, UMass Lowell Computer Science, daniel_quinonezrosario@student.uml.edu
+Copyright (c) 2022 by Daniel. All rights reserved. May be freely copied or excerpted for educational purposes
+with credit to the author.
+Updated by DQ on September 29th, 2022
+*/
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #00569f;
+	background-image: url("ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	margin: 20px auto 20px auto;
+	background-color: #68c8f8;
+	min-height: 450px;
+	min-width: 600px;
+	width: 80%;
+}
+header {
+	color: white;
+	background-color: #01102f;
+	background-image: url("sunset.jpg");
+	background-position: 100%;
+	background-repeat: no-repeat;
+}
+nav {
+	width: 180px;
+	float: left;
+}
+nav a {
+	text-decoration: none;
+	color: #070a4b;
+}
+nav ul {
+	font-size: 1.2em;
+	list-style: none;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	padding: 10px;
+	margin: 0;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#content {
+	background-color: white;
+	width: 80%;
+	padding: 0 20px 0 30px;
+	float: right;
+}
+#content img {
+	margin-right: 20px;
+	float: left;
+}
+#content li {
+	list-style-image: url("marker.gif");
+}
+#contact {
+	font-size: 90%;
+}
+.resort {
+	color: #4c75ce;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 75%;
+	background-color: white;
+	width: 80%;
+	padding: 19px 0 19px 30px;
+	float: right;
+}
+
